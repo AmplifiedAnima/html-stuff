@@ -32,7 +32,7 @@ body
     padding:10px;
     background: #8ecfef;
     border-radius: 10px;
-    
+    flex-direction: column;
 }
 .container_right{
     padding-left:5px;
