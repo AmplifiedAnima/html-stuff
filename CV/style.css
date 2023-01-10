@@ -1,52 +1,28 @@
 body
 {
-  
-    background: #ffffff;
-    display: flex;
-    justify-content: center;
-
+    background: #e1e1e1;
+    display:relative;
+    
 }
-
-
 .container{
- 
-    padding-top:10px;
-    padding-bottom:10px;
-    position: relative;
-    display: grid;
-    max-width:1000px;
-    min-height: 1000px;
-    grid-template-columns:1fr 2fr;
-    box-shadow:black;
-    letter-spacing: 0,7px;
-    line-height: 1,5;
-    border-radius:60%;
-   
-    font-size-adjust: initial;
-    font-size: 18px;
-    font-weight: 500;
-    text-align: left;
-  
-
+    padding:10px 10px 20px 20px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0;
 }
-.container_left{
-  
 
-    padding:20px;
+.col-md-4{
+    margin: auto;
+    padding: 20px;
     background: #8ecfef;
-    border-radius: 10px;
-
+    border-radius: 20px;
 
 }
-.container_right{
-    border-radius: 10px;
-    padding:15px;
+.col-md-8{
+    margin: auto;
+    border-radius: 20px;
+    padding: 20px;
     background: #caedff;
-
-    position: relative;
-
-   
-
  
 }
 
@@ -55,17 +31,28 @@ body
     display: flex;
     flex-direction: column;
     align-items: left;
-    font-size: 18px;
+    font-size: 20px;
     border-bottom:  black;
   
 }
+.profile_text2{
+    position:relative;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    font-size: 21.4px;
+    border-bottom:  black;
+  
+}
+
+
 .profile_text .imagebox{
 
-    position: relative;
-    width: 250px;  
-    height: 250px;
-    border-radius: 70%;
-    overflow:hidden;
+
+    width: 220px;  
+    height: 220px;
+    
+   
 }
 .profile_text .imagebox img{
 
@@ -75,6 +62,8 @@ body
     width:100%;
     height: 100%;
     object-fit: cover;
+    overflow:hidden;
+    border-radius: 80%;
 }
 
 
